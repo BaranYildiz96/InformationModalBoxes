@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Information Box</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://www.hosting.com.tr/bilgi-bankasi/wp-content/uploads/2020/06/html-imza-olusturma-1200x675.jpg" style="width:100%; max-height:200px;" class="btn1" id="px1"></div>
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://www.vargonen.com/blog/wp-content/uploads/2020/05/Python-kodlama.jpg" style="width:100% ; max-height:200px;" class="btn2" id="px2"></div>
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://img3.aksam.com.tr/imgsdisk/2020/04/22/220420207fbf059c_2.jpg" style="width:100% ;max-height:200px;" class="btn3" id="px3"></div>
+  </div>
+   <div class="row">
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://i.ytimg.com/vi/8wnj6M-jj9c/maxresdefault.jpg" style="width:100% ; max-height:200px;" class="btn4" id="px4"></div>
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://www.oracle.com/a/tech/img/cb88-java-logo-001.jpg" style="width:100% ; max-height:200px;" class="btn5" id="px5"></div>
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://img-a.udemycdn.com/course/480x270/1362870_6f5f_5.jpg" style="width:100% ; max-height:200px;" class="btn6" id="px6"></div>
+  </div>
+   <div class="row">
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://www.yazilimsinifi.com/wp-content/uploads/2019/01/java-script-gorsel-3.jpg " style="width:100% ;max-height:200px;" class="btn7" id="px7"></div>
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" style="width:100% ; max-height:200px;" class="btn8" id="px8"></div>
+    <div class="col-sm-4" id="x" style="background-color:white;"><img src="https://www.lifeacode.com/wp-content/uploads/2017/08/csharp_157d0dbe2e0b13.jpg" style="width:100% ; max-height:200px;" class="btn9" id="px9"></div>
+  </div>
+</div>
+
+<div id="myModal1" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp1" class="close1">&times;</span>
+	 <p><img src="https://www.hosting.com.tr/bilgi-bankasi/wp-content/uploads/2020/06/html-imza-olusturma-1200x675.jpg" style="width:100%"</p>
+	   <h2>TITLE</h2>
+    <p>Some text in the Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal2" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp2" class="close1">&times;</span>
+	 <p><img src="https://www.vargonen.com/blog/wp-content/uploads/2020/05/Python-kodlama.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 2.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal3" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp3" class="close1">&times;</span>
+	 <p><img src="https://img3.aksam.com.tr/imgsdisk/2020/04/22/220420207fbf059c_2.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 3.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal4" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp4" class="close1">&times;</span>
+	 <p><img src="https://i.ytimg.com/vi/8wnj6M-jj9c/maxresdefault.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 4.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal5" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp5" class="close1">&times;</span>
+	 <p><img src="https://www.oracle.com/a/tech/img/cb88-java-logo-001.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 5.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal6" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp6" class="close1">&times;</span>
+	 <p><img src="https://img-a.udemycdn.com/course/480x270/1362870_6f5f_5.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 6.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal7" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp7" class="close1">&times;</span>
+	 <p><img src="https://www.yazilimsinifi.com/wp-content/uploads/2019/01/java-script-gorsel-3.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 7.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal8" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp8" class="close1">&times;</span>
+	 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 8.Modal..</p>
+	  </div>
+
+</div>
+
+<div id="myModal9" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span id="sp9" class="close1">&times;</span>
+	 <p><img src="https://www.lifeacode.com/wp-content/uploads/2017/08/csharp_157d0dbe2e0b13.jpg" style="width:100%"</p>
+	  <h2>TITLE</h2>
+    <p>Some text in the 9.Modal..</p>
+	  </div>
+
+</div>
+<style>
+
+#x{
+height:200px;
+padding:2px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modal-content {
+	
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 50%;
+}
+
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+</style>
+<script>
+
+var modalsdiv = [];
+var modalIdList =['myModal1',"myModal2","myModal3","myModal4","myModal5","myModal6","myModal7","myModal8","myModal9"]
+	modalIdList.forEach(function(index){
+	var modal = document.getElementById(index);
+	modalsdiv.push(modal);
+});
+
+var buttondiv = [];
+var buttonList =["px1","px2","px3","px4","px5","px6","px7","px8","px9"]
+    buttonList.forEach(function(index){
+	var button = document.getElementById(index);
+	buttondiv.push(button);
+});
+
+var spandiv = [];
+var spanList =["sp1","sp2","sp3","sp4","sp5","sp6","sp7","sp8","sp9"]
+    spanList.forEach(function(index){
+	var spanx = document.getElementById(index);
+	spandiv.push(spanx);
+});
+// When the user clicks the button, open the modal 
+
+var numbers=[0,1,2,3,4,5,6,7,8];
+numbers.forEach(myFunction);
+function myFunction(item) {
+buttondiv[item].onclick = function() {
+  modalsdiv[item].style.display = "block";
+     }
+spandiv[item].onclick = function() {
+  modalsdiv[item].style.display = "none";
+     }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+numbers.forEach(myFunction);
+function myFunction(item) {
+if (event.target == modalsdiv[item]) {
+    modalsdiv[item].style.display = "none";
+  }
+}
+}
+
+</script>
+</body>
+</html>
